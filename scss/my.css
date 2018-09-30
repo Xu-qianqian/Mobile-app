@@ -1,0 +1,328 @@
+@charset "UTF-8";
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 12px "微软雅黑", "Arial Narrow", HELVETICA;
+  background: #e9e9e9;
+  -webkit-text-size-adjust: 100%; }
+
+a {
+  color: #2d374b;
+  text-decoration: none; }
+
+a:hover {
+  color: #cd0200;
+  text-decoration: underline; }
+
+em {
+  font-style: normal; }
+
+li {
+  list-style: none; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+p {
+  word-wrap: break-word; }
+
+.status-bar {
+  width: 100%;
+  height: 0.58667rem;
+  position: fixed;
+  background: #fff;
+  opacity: 0.5;
+  top: 0;
+  z-index: 1;
+  display: flex; }
+  .status-bar span {
+    display: block;
+    font-size: 0.17333rem;
+    margin: 0.16rem 0.10667rem; }
+  .status-bar .left {
+    width: 23%;
+    display: flex;
+    height: 0.53333rem;
+    margin-left: 0.32rem; }
+    .status-bar .left .pic {
+      width: 1.01333rem;
+      height: 0.16rem; }
+      .status-bar .left .pic img {
+        width: 100%;
+        height: 100%;
+        margin-top: 0.18667rem; }
+  .status-bar .content {
+    width: 54%;
+    height: 0.53333rem;
+    font-size: 0.17333rem;
+    text-align: center;
+    line-height: 0.53333rem; }
+  .status-bar .right {
+    width: 23%;
+    height: 0.53333rem;
+    display: flex; }
+    .status-bar .right img {
+      width: 100%;
+      height: 100%;
+      margin-top: 0.16rem; }
+    .status-bar .right .pic1 {
+      width: 0.22667rem;
+      height: 0.24rem;
+      margin-left: 0.77333rem; }
+    .status-bar .right .pic2 {
+      width: 0.34667rem;
+      height: 0.18667rem;
+      margin-top: 0.02667rem; }
+
+.top {
+  width: 100%;
+  position: relative;
+  height: 3.86667rem;
+  background: #fff; }
+  .top img {
+    width: 100%;
+    height: 100%; }
+  .top .tool-bar {
+    position: absolute;
+    width: 2.10667rem;
+    height: 0.53333rem;
+    top: 0.61333rem;
+    right: 0.32rem;
+    display: flex; }
+    .top .tool-bar .pic {
+      width: 0.61333rem;
+      height: 0.56rem;
+      margin-left: 0.18667rem; }
+      .top .tool-bar .pic img {
+        width: 90%;
+        height: 90%; }
+  .top .my-pic {
+    width: 4.05333rem;
+    height: 1.62667rem;
+    position: absolute;
+    top: 1.61333rem;
+    left: 0.76rem;
+    display: flex; }
+    .top .my-pic .pic {
+      width: 1.64rem;
+      height: 1.64rem; }
+      .top .my-pic .pic img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%; }
+    .top .my-pic span {
+      display: block;
+      color: #fff;
+      font-size: 0.4rem;
+      margin: 0.6rem 0 0 0.24rem; }
+
+.blance {
+  width: 100%;
+  height: 1.76rem;
+  background: #fff; }
+  .blance .blance-content {
+    width: 92.4%;
+    height: 1.76rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    .blance .blance-content .list {
+      width: 1.54667rem;
+      height: 1.76rem; }
+      .blance .blance-content .list p:first-child {
+        text-align: center;
+        color: #1d1d1d;
+        font-size: 0.36rem;
+        margin-top: 0.41333rem; }
+      .blance .blance-content .list p {
+        color: #676767;
+        font-size: 0.36rem;
+        margin-top: 0.13333rem; }
+    .blance .blance-content .list:nth-child(1) {
+      width: 1.86667rem;
+      height: 1.76rem; }
+
+.my-order {
+  width: 100%;
+  height: 2.8rem;
+  background: #fff;
+  margin-top: 0.21333rem; }
+  .my-order .order {
+    width: 100%;
+    border-bottom: 0.01333rem solid #eaeaea; }
+    .my-order .order .content {
+      width: 93.5%;
+      margin: 0 auto;
+      height: 1.16rem;
+      display: flex;
+      justify-content: space-between; }
+      .my-order .order .content .left {
+        width: 182;
+        height: 1.16rem;
+        display: flex; }
+        .my-order .order .content .left .pic {
+          width: 0.48rem;
+          height: 0.53333rem;
+          margin-top: 0.32rem; }
+          .my-order .order .content .left .pic img {
+            width: 100%;
+            height: 100%; }
+        .my-order .order .content .left p {
+          color: #1d1d1d;
+          font-size: 0.4rem;
+          margin: 0.36rem 0 0 0.26667rem; }
+      .my-order .order .content .more-order {
+        width: 2.36rem;
+        height: 1.16rem;
+        display: flex; }
+        .my-order .order .content .more-order a {
+          display: block;
+          color: #c0c0c0;
+          font-size: 0.32rem;
+          margin-right: 0.13333rem;
+          margin-top: 0.37333rem;
+          cursor: pointer; }
+        .my-order .order .content .more-order .pic {
+          width: 0.22667rem;
+          height: 0.4rem;
+          margin-top: 0.41333rem; }
+          .my-order .order .content .more-order .pic img {
+            width: 100%;
+            height: 100%; }
+  .my-order .status {
+    width: 89.3%;
+    height: 1.62667rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    .my-order .status .lis {
+      width: 1.12rem;
+      height: 1.62667rem;
+      text-align: center; }
+      .my-order .status .lis p {
+        color: #515151;
+        font-size: 0.36rem; }
+      .my-order .status .lis img {
+        width: 100%;
+        height: 100%; }
+      .my-order .status .lis .pic {
+        width: 0.56rem;
+        height: 0.49333rem;
+        margin: 0.29333rem auto; }
+      .my-order .status .lis .pic1 {
+        width: 0.56rem;
+        height: 0.48rem;
+        margin: 0.29333rem auto; }
+      .my-order .status .lis .pic2 {
+        width: 0.56rem;
+        height: 0.53333rem;
+        margin: 0.29333rem auto; }
+      .my-order .status .lis .pic3 {
+        width: 0.48rem;
+        height: 0.56rem;
+        margin: 0.25333rem auto; }
+      .my-order .status .lis .pic4 {
+        width: 0.54667rem;
+        height: 0.56rem;
+        margin: 0.25333rem auto; }
+    .my-order .status .lis:nth-child(5) {
+      width: 0.74667rem;
+      height: 1.62667rem; }
+
+.more-change {
+  width: 100%;
+  height: 6.66667rem;
+  margin-top: 0.22667rem;
+  background: #fff; }
+  .more-change .lists {
+    width: 100%;
+    height: 1.32rem;
+    position: relative;
+    margin-left: 0.32rem;
+    display: flex;
+    border-bottom: 0.01333rem solid #eaeaea; }
+    .more-change .lists .left {
+      width: 2.72rem;
+      height: 1.32rem;
+      display: flex; }
+    .more-change .lists span {
+      display: block;
+      margin: 0.4rem 0 0 0.46667rem;
+      color: #1c1c1c;
+      font-size: 0.4rem; }
+    .more-change .lists a {
+      display: block;
+      position: absolute;
+      right: 130px;
+      width: 0.22667rem;
+      height: 0.4rem;
+      margin-top: 0.13333rem; }
+    .more-change .lists img {
+      width: 100%;
+      height: 100%;
+      margin: 0.4rem 0 0 0.32rem; }
+    .more-change .lists .pic {
+      width: 0.56rem;
+      height: 0.48rem; }
+    .more-change .lists .pic2 {
+      width: 0.45333rem;
+      height: 0.56rem; }
+    .more-change .lists .pic3 {
+      width: 0.56rem;
+      height: 0.53333rem; }
+    .more-change .lists .pic4 {
+      width: 0.56rem;
+      height: 0.56rem; }
+    .more-change .lists .pic5 {
+      width: 0.50667rem;
+      height: 0.54667rem; }
+
+.footer {
+  width: 100%;
+  height: 1.32rem;
+  border-top: 0.01333rem solid #e9e9e9;
+  margin-top: 0.93333rem;
+  background: #fff; }
+  .footer ul {
+    display: flex; }
+    .footer ul li {
+      display: block;
+      width: 20%;
+      height: 1.32rem;
+      text-align: center; }
+      .footer ul li p {
+        color: #515151;
+        font-size: 0.25333rem;
+        margin-top: -0.13333rem; }
+      .footer ul li img {
+        width: 100%;
+        height: 100%; }
+      .footer ul li .pic {
+        width: 0.56rem;
+        height: 0.53333rem;
+        margin: 0.24rem auto; }
+      .footer ul li .pic1 {
+        width: 0.64rem;
+        height: 0.64rem;
+        margin: 0.18667rem auto; }
+      .footer ul li .pic2 {
+        width: 0.57333rem;
+        height: 0.57333rem;
+        margin: 0.18667rem auto; }
+      .footer ul li .pic3 {
+        width: 0.65333rem;
+        height: 0.65333rem;
+        margin: 0.18667rem auto; }
+      .footer ul li .pic4 {
+        width: 0.48rem;
+        height: 0.54667rem;
+        margin: 0.22667rem auto; }
+
+/*# sourceMappingURL=my.css.map */

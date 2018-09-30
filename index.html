@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="css/swiper.min.css" >
+    <script src="js/jquery-1.11.3.min.js"></script>
+     <script src="js/swiper.min.js"></script>
+    <link rel="stylesheet" href="scss/index.css">
+    <script src="js/index.js"></script>
+    <title>首页</title>
+     <script>
+        var pixelRatio = 1 / window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,initial-scale=' + pixelRatio + ',minimum-scale=' + pixelRatio + ',maximum-scale=' + pixelRatio + '" />');
+        var html = document.getElementsByTagName('html')[0];
+        var pageWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = pageWidth / 10 + "px";
+    </script>
+</head>
+<body>
+    <div class="index">
+        <div class="banner">
+                <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="image/header.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="image/header.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="image/header.png" alt="">
+                        </a>
+                    </div>
+                     <div class="swiper-slide">
+                        <a href="#">
+                            <img src="image/header.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="status-bar"> 
+            <div class="left">
+                <div class="pic">
+                    <img src="image/图层1.jpg" alt="">
+                </div>
+                <span>中国电信</span>
+            </div>
+            <div class="content">
+                07:01 AM
+            </div>
+            <div class="right">
+                <div class="pic1">
+                    <img src="image/图层3.jpg" alt="">
+                </div>
+                <span>90%</span>
+                <div class="pic2">
+                    <img src="image/图层2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--<div class="search-bar">
+            <div class="content">
+                <div class="left">
+                    <div class="location">
+                        <div class="pic1">
+                            <img src="image/location.jpg" alt="">
+                        </div>
+                        <span>合肥</span>
+                        <div class="pic2">
+                            <img src="image/right.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="pic">
+                        <img src="image/search.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="澳洲进口牛奶">
+                    <div class="pic1">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="pic">
+                        <img src="image/scan.jpg" alt="">
+                    </div>
+                    <div class="pic1">
+                        <img src="image/message.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <div class="classification">
+            <div class="banner1">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                    
+                        <div class="swiper-slide">
+                                <div class="content-list"> 
+                            <div class="list-top">
+                                <div class="list">
+                                    <img src="image/veg.jpg" alt="">
+                                    <p>新鲜蔬菜</p>
+                                </div>
+                                <div class="list">
+                                    <img src="image/hai.jpg" alt="">
+                                    <p>海鲜水产</p>
+                                </div>
+                                <div class="list">
+                                    <img src="image/meat.jpg" alt="">
+                                    <p>肉禽蛋类</p>
+                                </div>
+                                <div class="list">
+                                    <img src="image/firut.jpg" alt="">
+                                    <p>缤纷水果</p>
+                                </div>
+                            </div>
+                            <div class="list-top">
+                                <div class="list">
+                                    <img src="image/1.jpg" alt="">
+                                    <p>面包烘焙</p>
+                                </div>
+                                <div class="list">
+                                    <img src="image/te3.jpg" alt="">
+                                    <p>鲜奶饮品</p>
+                                </div>
+                                <div class="list">
+                                    <img src="image/te2.jpg" alt="">
+                                    <p>近日特价</p>
+                                </div>
+                                <div class="list">
+                                    <img src="image/evaluate.jpg" alt="">
+                                    <p>优品生活</p>
+                                </div>
+                            </div>
+                    </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content-list"> 
+                            <div class="list-top">
+                                <div class="list">
+                                    <img src="image/veg.jpg" alt="">
+                                    <p>新鲜蔬菜</p>
+                                </div>
+                                <div class="list">
+                                    <img src="image/hai.jpg" alt="">
+                                    <p>海鲜水产</p>
+                                </div>
+                                <div class="list">
+                                    <img src="image/meat.jpg" alt="">
+                                    <p>肉禽蛋类</p>
+                                </div>
+                                <div class="list">
+                                    <img src="image/firut.jpg" alt="">
+                                    <p>缤纷水果</p>
+                                </div>
+                            </div>
+                            <div class="list-top">
+                                <div class="list">
+                                    <img src="image/1.jpg" alt="">
+                                    <p>面包烘焙</p>
+                                </div>
+                                <div class="list">
+                                    <img src="image/te3.jpg" alt="">
+                                    <p>鲜奶饮品</p>
+                                </div>
+                                <div class="list">
+                                    <img src="image/te2.jpg" alt="">
+                                    <p>近日特价</p>
+                                </div>
+                                <div class="list">
+                                    <img src="image/evaluate.jpg" alt="">
+                                    <p>优品生活</p>
+                                </div>
+                            </div>
+                    </div>
+                        </div>
+                    </div>
+                    <!-- 如果需要分页器 -->
+                    <div class="swiper-pagination"></div>
+                    
+                </div>
+            </div>
+            <div class="every-paper">
+                <div class="every-paper-content">
+                    <div class="left">
+                        <div class="pic">
+                            <img src="image/11.jpg" alt="">
+                        </div>
+                        <span>每日鲜报</span>
+                    </div>
+                    <div class="right">
+                        <span>越南大青芒39.9包邮/2+1斤</span>
+                        <a href="#">》</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="limit-buy">
+            <div class="title">
+                <div class="left">
+                    <div ></div>
+                    <span>限时抢购</span>
+                </div>
+                <div class="come-back">
+                    <div id="huors">04</div> &nbsp: &nbsp
+                    <div id="minter">2</div>  &nbsp: &nbsp
+                    <div id="second">3</div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="products-content">
+                      <div class="list">
+                          <div class="pic1">
+                              <img src="image/图层23.jpg" alt="">
+                          </div>
+                          <span class="text1">赣南脐橙1Kg</span>
+                          <p class="old">￥29</p>
+                          <p class="new">￥19</p>
+                      </div>
+                      <div class="list">
+                            <div class="pic2">
+                              <img src="image/图层24.jpg" alt="">
+                            </div>
+                            <span>有机青菜4Kg</span>
+                            <p class="old">￥28</p>
+                            <p class="new">￥16.5</p>
+                      </div>
+                      <div class="list">
+                            <div class="pic3">
+                              <img src="image/图层25.jpg" alt="">
+                          </div>
+                          <span class="text2">智利樱桃1Kg</span>
+                          <p class="old">￥49.9</p>
+                          <p class="new">￥29.9</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="guess-like">
+             <div class="title">
+                 <div class="content">
+                     <div class="pic">
+                         <img src="image/pic.jpg" alt="">
+                     </div>
+                     <span>猜你喜欢</span>
+                     <div class="pic">
+                         <img src="image/pic1.jpg" alt="">
+                     </div>
+                 </div>
+             </div>
+             <div class="pic-show">
+                 <div class="pic">
+                     <img src="image/pic3.jpg" alt="">
+                 </div>
+                 <div class="pic">
+                     <img src="image/pic4.jpg" alt="">
+                 </div>
+             </div>
+             <div class="guess-list">
+                 <div class="guess-list-content">
+                     <div class="list-content">
+                         <div class="pic">
+                             <img src="image/图层29.jpg" alt="">
+                         </div>
+                         <span>新疆无籽葡萄</span>
+                         <p class="old">1份约500g</p>
+                         <p class="new">￥18.5</p>
+                     </div>
+                     <div class="list-content">
+                            <div class="pic">
+                                <img src="image/图层34.jpg" alt="">
+                            </div>
+                            <span>有机现摘番茄</span>
+                            <p class="old">1份约675g</p>
+                            <p class="new">￥23.9</p>
+                     </div>
+                     <div class="list-content">
+                            <div class="pic">
+                                <img src="image/图层31.jpg" alt="">
+                            </div>
+                            <span>当日新鲜河虾</span>
+                            <p class="old">1份约500g</p>
+                            <p class="new">￥42.5</p>
+                     </div>
+                 </div>
+             </div>
+             
+        </div>
+        <div class="guess-like">
+             <div class="title">
+                 <div class="content">
+                     <div class="pic">
+                         <img src="image/pic.jpg" alt="">
+                     </div>
+                     <span>当季推荐</span>
+                     <div class="pic">
+                         <img src="image/pic1.jpg" alt="">
+                     </div>
+                 </div>
+             </div>
+             <div class="pic-show">
+                 <div class="pic">
+                     <img src="image/2.jpg" alt="">
+                 </div>
+                 <div class="pic">
+                     <img src="image/timg.jpg" alt="">
+                 </div>
+             </div>
+             <div class="guess-list">
+                 <div class="guess-list-content">
+                     <div class="list-content">
+                         <div class="pic">
+                             <img src="image/图层35.jpg" alt="">
+                         </div>
+                         <span>现摘新鲜包菜</span>
+                         <p class="old">1份约1Kg</p>
+                         <p class="new">￥9.9</p>
+                     </div>
+                     <div class="list-content">
+                            <div class="pic">
+                                <img src="image/图层36.jpg" alt="">
+                            </div>
+                            <span>同鱼片罗非鱼</span>
+                            <p class="old">1份约275g</p>
+                            <p class="new">￥19.9</p>
+                     </div>
+                     <div class="list-content">
+                            <div class="pic">
+                                <img src="image/图层37.jpg" alt="">
+                            </div>
+                            <span>农家有机玉米</span>
+                            <p class="old">1份约500g</p>
+                            <p class="new">￥8.9</p>
+                     </div>
+                 </div>
+             </div>
+             
+        </div>
+        <div class="produce-lists">
+            <div class="title-pic">
+                <img src="image/pp.jpg" alt="">
+            </div>
+            <div class="lists-all">
+                <div class="left">
+                    <div class="pic1"><img src="image/图层33.jpg" alt=""></div>
+                </div>
+                <div class="right">
+                    <span>越南红心火龙果</span>
+                    <p>个大爽口，清新甜蜜</p>
+                    <p>￥69.9/5kg</p>
+                    <div class="shopcar">
+                       <img src="image/cart.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="lists-all">
+                <div class="left">
+                    <div class="pic2"><img src="image/meat1.jpg" alt=""></div> 
+                </div>
+                <div class="right">
+                    <span>美国进口牛肉</span>
+                    <p>肉质新鲜，口感滑嫩</p>
+                    <p>￥59.9/2kg</p>
+                    <div class="shopcar">
+                          <img src="image/cart.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="lists-all">
+                <div class="left">
+                    <div class="pic3"><img src="image/VCG41173888437.jpg" alt=""></div>
+                </div>
+                <div class="right">
+                    <span>青田谷园现摘草莓</span>
+                    <p>现摘新鲜，鲜嫩多汁</p>
+                    <p>￥39.9/1.5kg</p>
+                    <div class="shopcar">
+                          <img src="image/cart.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="lists-all">
+                <div class="left">
+                    <div class="pic4"><img src="image/VCG214c0add46c.jpg" alt=""></div>
+                </div>
+                <div class="right">
+                    <span>正宗农家五谷杂粮</span>
+                    <p>颗颗饱满，健康养生</p>
+                    <p>￥46.5/4kg</p>
+                    <div class="shopcar">
+                          <img src="image/cart.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="lists-all">
+                <div class="left">
+                    <div class="pic5"><img src="image/VCG210dbf04d4f.jpg" alt=""></div>
+                </div>
+                <div class="right">
+                    <span>澳大利亚新鲜脐橙</span>
+                    <p>高糖低酸，皮薄易剥</p>
+                    <p>￥36.9/2.5kg</p>
+                    <div class="shopcar">
+                          <img src="image/cart.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <ul>
+                <li >
+                <a href="index.html">
+                    <div class="pic">
+                        <img src="image/home_fill.jpg" alt="">
+                    </div>
+                    <p style="color: #65a032">首页</p>
+                    </a>
+                </li>
+                <li>
+                  <a href="category.html">
+                     <div class="pic1">
+                         <img src="image/all.jpg" alt="">
+                     </div>
+                     <p>分类</p>
+                  </a>
+                </li>
+                <li>
+                <a href="shangping.html">
+                     <div class="pic2">
+                         <img src="image/discover.jpg" alt="">
+                     </div>
+                     <p>发现</p>
+                     </a>
+                </li>
+                <li>
+                   <a href="">
+                     <div class="pic3">
+                         <img src="image/cart1.jpg" alt="">
+                     </div>
+                     <p>购物车</p>
+                     </a>
+                </li>
+                <li>
+                <a href="my.html">
+                     <div class="pic4">
+                         <img src="image/people.jpg" alt="">
+                     </div>
+                     <p>我的</p>
+                     </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>        
+        var mySwiper = new Swiper ('.banner .swiper-container', {
+            loop: true,
+            autoplay:true,
+            // 如果需要分页器
+            pagination: {
+            el: '.swiper-pagination',
+             clickable: true,
+            clickableClass : 'my-pagination-clickable',
+            },
+          
+        })
+         var mySwiper1 = new Swiper ('.banner1 .swiper-container', {
+        
+            loop: true,
+        
+            // 如果需要分页器
+            pagination: {
+            el: '.swiper-pagination',
+              clickable: true,
+            clickableClass : 'my-pagination-clickable',
+            },
+        
+        })        
+        
+  </script>
+</body>
+</html>
